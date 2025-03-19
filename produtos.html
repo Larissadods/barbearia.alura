@@ -4,21 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Barbearia Alura </title>
+    <title> Produtos - Barbearia Alura </title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="produtos.css">
 </head>
 <body>
     <header>
-        <h1> <img src="logo.png"> </h1>
+        <div class="caixa">
+            <h1> <img src="logo.png"> </h1>
 
-        <nav>
-            <ul>
-               <li> <a href="index.html"> Home </a> </li>
-               <li> <a href="produtos.html"> Produtos </a> </li>
-               <li> <a href="contatos.html"> Contatos </a> </li>
-            </ul>
-        </nav>
+            <nav>
+                <ul>
+                   <li> <a href="index.html"> Home </a> </li>
+                   <li> <a href="produtos.html"> Produtos </a> </li>
+                   <li> <a href="contatos.html"> Contatos </a> </li>
+                </ul>
+            </nav>
+        </div>
     </header>
+
+    <main>
+        <ul class="produtos">
+            <li>
+                <h3> Cabelo </h3>
+                <img src="cabelo.jpg">
+                <p class="produto-descriçao"> Na tesoura ou máquina, como o cliente preferir </p>
+                <p class="produto-preço"> R$ 25,00 </p>
+            </li>
+            <li>
+                <h3> Barba </h3>
+                <img src="barba.jpg">
+                <p class="produto-descriçao"> Corte e desenho profissional de barba </p>
+                <p class="produto-preço"> R$ 18,00 </p>
+            </li>
+            <li>
+                <h3> Cabelo + Barba </h3>
+                <img src="cabelo+barba.jpg">
+                <p class="produto-descriçao"> Pacote completo de cabelo e barba </p>
+                <p class="produto-preço"> R$ 35,00 </p>
+            </li>
+        </ul>
+    </main>
 </body>
 </html>
