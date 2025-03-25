@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Contatos - Barbearia Alura </title>
+    <title> Contato - Barbearia Alura </title>
     <link rel="stylesheet" href="contatos.css">
 </head>
 <body>
-    
+
     <header>
         <div class="caixa">
             <h1> <img src="logo.png"> </h1>
@@ -26,16 +26,16 @@
     <main>
         <form>
             <label for="nomesobrenome"> Nome e sobrenome </label>
-            <input type="text" id="nomesobrenome">
+            <input type="text" id="nomesobrenome" class="input-padrao">
             
             <label for="email"> Email </label>
-            <input type="text" id="email">
+            <input type="text" id="email" class="input-padrao">
 
             <label for="telefone"> Telefone </label>
-            <input type="text" id="telefone">
+            <input type="text" id="telefone" class="input-padrao">
 
             <label for="mensagem"> Mensagem </label>
-            <textarea id="mensagem" cols="70" rows="10"> </textarea>
+            <textarea id="mensagem" cols="70" rows="10" class="input-padrao"> </textarea>
 
             <div>
                 <p> Como prefere o nosso contato? </p>
@@ -48,11 +48,15 @@
 
             </div>
 
-            <label> <input type="checkbox"> Gostaria de receber nossas novidades por email? </label>
+            <label class="checkbox"> <input type="checkbox"> Gostaria de receber nossas novidades por email? </label>
 
             <input type="submit" value="Enviar formulário">
         </form>
     </main>
 
+    <footer>
+        <img src="logo-branco.png">
+        <p class="copyright">&copy; Copyright Barbearia Alura - 2019 </p>
+    </footer>
 </body>
 </html>
