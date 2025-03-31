@@ -37,11 +37,6 @@ nav a:hover {
     text-decoration: underline;
 }
 
-main {
-    width: 940px;
-    margin: 0 auto;
-}
-
 form {
     margin: 40px 0;
 }
@@ -117,10 +112,9 @@ td, th {
     margin: 0 0 1em;
 }
 
-.mapa h3 {
-    text-align: center;
-    font-size: 2em;
-    margin: 0 0 1em;
+.mapa {
+    padding: 3em 0;
+    background: linear-gradient(#FEFEFE, #888888);
 }
 
 .itens h3 {
@@ -135,6 +129,6 @@ td, th {
     margin: 0 20px 20px 0;
 }
 
-.imgbene {
+.imagem-beneficios {
     width: 60%;
 }
